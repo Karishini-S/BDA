@@ -142,10 +142,9 @@ python notebooks/model_phase1.py
 
 ---
 
-## 🔒 Reproducibility
+## 🔒 Code
 
-- ✅ Fully Dockerized Spark cluster (recommended)  
-- ⚠️ Local setup with Spark, Scala, Python (not recommended for scale)  
+- ✅ Fully Dockerized Spark cluster
 
 ---
 
@@ -158,3 +157,6 @@ python notebooks/model_phase1.py
 | Handmade_Products        | 275         | 380          |
 
 ---
+
+## 📜 License
+Dataset © McAuley Lab (UCSD) – used for research purposes only.
