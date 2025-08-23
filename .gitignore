@@ -1,3 +1,21 @@
 # Ignore dataset files
 data/*.jsonl
 data/*.jsonl.gz
+
+# Compiled / build
+target/
+*.class
+*.jar
+*.zip
+
+# IDE / editors
+.metals/
+.vscode/
+.idea/
+
+# Output / data
+output/
+*.crc
+
+# Temp
+task-temp-directory/

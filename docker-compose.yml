@@ -48,6 +48,9 @@ services:
     volumes:
       - ./app:/opt/spark-apps
       - ./hadoop-config:/opt/hadoop/etc/hadoop
+      - ./target/scala-2.12:/opt/spark-apps
+      - ./data:/data
+      - ./output:/output 
     networks:
       - bigdata-net
 
@@ -85,6 +88,8 @@ services:
     volumes:
       - ./notebooks:/home/jovyan/work
       - ./hadoop-config:/opt/hadoop/etc/hadoop
+      - ./data:/data
+      - ./output:/output 
     depends_on:
       - spark-master
       - namenode
