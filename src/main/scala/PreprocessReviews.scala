@@ -2,7 +2,7 @@ import org.apache.spark.sql.{SparkSession, DataFrame, Row}
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._
 
-// Tail-recursive function to select best image URL
+// Tail recursion function to select best image URL
 object ImageSelector {
   @annotation.tailrec
   def getBestImage(images: Seq[Row], priorities: List[String]): Option[String] = {
