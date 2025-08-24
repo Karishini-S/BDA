@@ -1,0 +1,9 @@
+{"rating": 5.0, "title": "Great product!", "text": "I loved it. <br />Works perfectly!!", "images": [{"small_image_url": "url_s.jpg"}], "asin": "A111", "user_id": "U001", "timestamp": 1600000000000, "helpful_vote": 2, "verified_purchase": true}
+{"rating": 6.0, "title": "Invalid rating", "text": "Bad data with wrong rating", "images": [], "asin": "A112", "user_id": "U002", "timestamp": 1600000005000, "helpful_vote": 0, "verified_purchase": true}
+{"rating": 4.0, "title": null, "text": "Missing title should be replaced with empty string", "images": [], "asin": "A113", "user_id": "U003", "timestamp": 1600000010000, "verified_purchase": false}
+{"rating": 3.0, "title": "Has Large Image", "text": "Testing large image priority", "images": [{"large_image_url": "url_l.jpg"}, {"medium_image_url": "url_m.jpg"}], "asin": "A114", "user_id": "U004", "timestamp": 1600000015000, "helpful_vote": 5, "verified_purchase": true}
+{"rating": 2.0, "title": "Has Medium Image Only", "text": "Testing medium image priority", "images": [{"medium_image_url": "url_m2.jpg"}], "asin": "A115", "user_id": "U005", "timestamp": 1600000020000, "helpful_vote": null, "verified_purchase": true}
+{"rating": 1.0, "title": "Has Small Image Only", "text": "Testing small image fallback", "images": [{"small_image_url": "url_s2.jpg"}], "asin": "A116", "user_id": "U006", "timestamp": 1600000025000, "verified_purchase": true}
+{"rating": 4.0, "title": "Missing Fields", "text": null, "images": [], "asin": null, "user_id": "U007", "timestamp": 1600000030000, "verified_purchase": true}
+{"rating": 5.0, "title": "Non-clean text", "text": "This has &amp; special chars!!! <br />", "images": [], "asin": "A118", "user_id": "U008", "timestamp": 1600000035000, "verified_purchase": true}
+{"rating": 3.0, "title": "Helpful vote missing", "text": "helpful_vote should default to 0", "images": [], "asin": "A119", "user_id": "U009", "timestamp": 1600000040000, "verified_purchase": true}

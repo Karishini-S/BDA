@@ -19,3 +19,6 @@ output/
 
 # Temp
 task-temp-directory/
+
+# scala build
+.scala-build/
