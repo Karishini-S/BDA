@@ -137,6 +137,10 @@ spark-shell
 val df = spark.read.parquet("hdfs://namenode:9000/output/cleaned_reviews")
 df.printSchema()
 df.show(10)
+
+val raw = spark.read.option("multiLine", "false").json("hdfs://namenode:9000/data/All_Beauty.jsonl")
+raw.printSchema()
+raw.show(10)
 ```
 
 ---
