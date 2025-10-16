@@ -263,13 +263,17 @@ python notebooks/model_phase1.py
 
 ## 📊 Dataset Categories Used
 
-| Category                 | Reviews | Metadata | Size (MB) |
+| Category                 | Reviews (GB) | Metadata (GB) | Size (GB) |
 |--------------------------|---------|----------|-----------|
-| All_Beauty               | 311     | 203      | ~45       |
-| Health_and_Personal_Care | 216     | 115      | ~32       |
-| Handmade_Products        | 275     | 380      | ~38       |
-| **Total Development Set**| **802** | **698**  | **~115**  |
+| All_Beauty               | 0.31     | 0.2      | ~0.5       |
+| Baby_Products            | 2.74     | 0.65     | ~3.39      |
+| Handmade_Products        | 0.31     | 0.38     | ~0.7       |
+| Health_and_Personal_Care | 0.22     | 0.1      | ~0.3       |
+| Software                 | 1.74     | 0.25     | ~2         |
+| Video_games              | 2.49     | 0.42     | ~2.91      |
+| **Total Development Set**| **~7.81** | **~2**  | **~9.8**   |
 
+- Total size (in GB):  **~9.8**
 ---
 
 ## 🔒 Security & Privacy
