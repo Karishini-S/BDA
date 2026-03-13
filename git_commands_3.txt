@@ -1,0 +1,33 @@
+1. cloning
+
+git clone https://github.com/REPO_OWNER_USERNAME/multimodal-fake-review-detection.git
+cd multimodal-fake-review-detection
+
+2. creating branch
+
+git checkout -b metadata-pipeline-module
+git branch
+
+3. place your file in the src/metadata_pipeline.py (create it if it does not exist already)
+
+4. check status
+
+git status
+
+5. stage the file
+
+git add src/metadata_pipeline.py
+
+6. commit changes
+
+git commit -m "Added metadata feature extraction and scaling module"
+
+7. push your branch
+
+git push origin metadata-pipeline-module
+
+8. pull request
+
+in gtihub repo page, click compare & pull request, title it as: add metadata pipeline module, description: Implemented metadata feature extraction and preprocessing module for multimodal fake review detection pipeline.
+click create pull request
+
